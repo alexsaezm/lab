@@ -11,7 +11,7 @@ ignore or to clean.
 
 For example, the Go experiment in `hello_world_go/Makefile` contains:
 
-```make
+```Makefile
 TARGET ?= $(notdir $(CURDIR))
 
 .PHONY: build
@@ -24,6 +24,6 @@ build:
 While this approach is pretty nice for building, it makes building from within a
 directory a cumbersome experience:
 
-```sh
+```bash
 make BUILD_DIR=../build
 ```
