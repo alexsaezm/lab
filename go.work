@@ -1,1 +1,3 @@
 go 1.26.6
+
+use ./hello_world_go
