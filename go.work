@@ -1,6 +1,3 @@
 go 1.27rc2
 
-use (
-	./hello_world_go
-	./iter_seq_go
-)
+use ./hello_world_go
